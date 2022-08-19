@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
         timeout: 30000
     },
     use: {
-        browserName: 'chromium',
+        browserName: 'firefox',
         viewport: {
             width: 1366,
             height: 768,
