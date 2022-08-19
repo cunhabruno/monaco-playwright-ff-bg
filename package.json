@@ -1,0 +1,13 @@
+{
+  "name": "monaco-playwright-ff-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cunhabruno/monaco-playwright-ff-bug.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  }
+}
