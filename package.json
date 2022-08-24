@@ -8,6 +8,7 @@
     "@playwright/test": "^1.25.0"
   },
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "run-docker": "docker-compose run --rm playwright"
   }
 }

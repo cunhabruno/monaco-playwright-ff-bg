@@ -1,0 +1,9 @@
+services:
+  playwright:
+    image: "mcr.microsoft.com/playwright:v1.25.0-focal"
+    container_name: playwright
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: bash -c "npm test"
+    network_mode: host
